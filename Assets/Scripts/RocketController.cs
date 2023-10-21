@@ -10,6 +10,7 @@ public AudioClip thrustAudio;
 public float thrust;
 public float rotationSpeed;
 public ParticleSystem engineThrust;
+public Collider bounds;
 
 
 
@@ -26,6 +27,7 @@ void Update()
 {
 	//whenever input is processed, play rocket thrust sound
 	ProcessInput();
+	CheckBounds();
 }
 
 private void ProcessInput()
@@ -52,4 +54,23 @@ private void ProcessInput()
 		transform.Rotate(transform.right * rotationSpeed);
 	}
 }
+
+
+ private void CheckBounds()
+    {
+        if (bounds != null)
+        {
+            if (!bounds.bounds.Contains(transform.position))
+            {
+                Vector3 clampedPosition = transform.position;
+                clampedPosition.x = Mathf.Clamp(clampedPosition.x, bounds.bounds.min.x, bounds.bounds.max.x);
+                clampedPosition.y = Mathf.Clamp(clampedPosition.y, bounds.bounds.min.y, bounds.bounds.max.y);
+                clampedPosition.z = Mathf.Clamp(clampedPosition.z, bounds.bounds.min.z, bounds.bounds.max.z);
+
+                transform.position = clampedPosition;
+            }
+        }
+    }
+
+
 }

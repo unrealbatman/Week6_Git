@@ -38,8 +38,8 @@ public class AudioManager : MonoBehaviour
             case 0:
             case 1:
             case 2:
-                GameObject.FindGameObjectWithTag("Music")
-                    .GetComponent<MenuMusic>().PlayMusic();
+                GameObject.FindGameObjectWithTag("Music")?.GetComponent<MenuMusic>().PlayMusic();
+
                 break;
             case 3:
                 audioSource.clip = level1;
@@ -48,8 +48,9 @@ public class AudioManager : MonoBehaviour
                     audioSource.Play();
 
                 }
-                GameObject.FindGameObjectWithTag("Music")
-                    .GetComponent<MenuMusic>().StopMusic();
+                GameObject.FindGameObjectWithTag("Music")?.GetComponent<MenuMusic>().StopMusic();
+
+                
                 break;
             case 4:
                 audioSource.clip = level2;
@@ -57,8 +58,8 @@ public class AudioManager : MonoBehaviour
                 {
                     audioSource.Play();
                 }
-                GameObject.FindGameObjectWithTag("Music")
-                  .GetComponent<MenuMusic>().StopMusic();
+                GameObject.FindGameObjectWithTag("Music")?.GetComponent<MenuMusic>().StopMusic();
+
                 break;
             case 5:
                 audioSource.clip = level3;
@@ -66,8 +67,8 @@ public class AudioManager : MonoBehaviour
                 {
                     audioSource.Play();
                 }
-                GameObject.FindGameObjectWithTag("Music")
-                  .GetComponent<MenuMusic>().StopMusic();
+                GameObject.FindGameObjectWithTag("Music")?.GetComponent<MenuMusic>().StopMusic();
+
                 break;
             case 6:
                 if (!audioSource.isPlaying)
@@ -75,8 +76,8 @@ public class AudioManager : MonoBehaviour
                     audioSource.Play();
                 }
                 audioSource.clip = level4;
-                GameObject.FindGameObjectWithTag("Music")
-                  .GetComponent<MenuMusic>().StopMusic();
+                GameObject.FindGameObjectWithTag("Music")?.GetComponent<MenuMusic>().StopMusic();
+
                 break;
 
         }

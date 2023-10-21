@@ -352,7 +352,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 0b9bca1016502d544a82ddff67f5a388, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -451,9 +451,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thrustAudio: {fileID: 8300000, guid: bcf276afcfa571349b8b959bb370e322, type: 3}
-  thrust: 30
-  rotationSpeed: 5
+  thrust: 15
+  rotationSpeed: 3
   engineThrust: {fileID: 7978036292183091281}
+  bounds: {fileID: 0}
 --- !u!114 &2036703085
 MonoBehaviour:
   m_ObjectHideFlags: 0
