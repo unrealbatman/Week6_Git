@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 255529dd92885cc49912edd78a361e6f, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: e84eea31d78c1b943a76864bc4f2ab74, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -491,11 +491,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a52312c295a55564788846742869adbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menu: {fileID: 0}
+  menu: {fileID: 8300000, guid: 87d88707d931a8141b545c863729a702, type: 3}
   level1: {fileID: 8300000, guid: 2c7fe90f15de7fa469ff665c08d8acb4, type: 3}
   level2: {fileID: 8300000, guid: 9752ee2a41017814bbb211cee30999ae, type: 3}
   level3: {fileID: 8300000, guid: 92f247e4044c0f644abb5de25a6b83a1, type: 3}
-  level4: {fileID: 8300000, guid: 41fa7b42c63c817448a4ca42c84b4ad4, type: 3}
+  level4: {fileID: 8300000, guid: 8e68a6849adbba546a3b216e5fb1469f, type: 3}
+  level5: {fileID: 8300000, guid: 6d2134c9984ba2245a5d82bf88ed67e7, type: 3}
 --- !u!114 &209178587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -526,6 +527,7 @@ MonoBehaviour:
   level2: {fileID: 8300000, guid: 9752ee2a41017814bbb211cee30999ae, type: 3}
   level3: {fileID: 8300000, guid: 92f247e4044c0f644abb5de25a6b83a1, type: 3}
   level4: {fileID: 8300000, guid: 41fa7b42c63c817448a4ca42c84b4ad4, type: 3}
+  level5: {fileID: 0}
 --- !u!4 &468397560 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6879345411275531740, guid: fc80a76856c0fb748aae74fce795793f, type: 3}
@@ -2547,7 +2549,11 @@ PrefabInstance:
       objectReference: {fileID: 2118641324}
     - target: {fileID: 2036703086, guid: 15ccdefa6d31ee04190f5a6d416e5611, type: 3}
       propertyPath: thrust
-      value: 20
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2036703086, guid: 15ccdefa6d31ee04190f5a6d416e5611, type: 3}
+      propertyPath: rotationSpeed
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 5351607921144695576, guid: 15ccdefa6d31ee04190f5a6d416e5611, type: 3}
       propertyPath: m_RootOrder

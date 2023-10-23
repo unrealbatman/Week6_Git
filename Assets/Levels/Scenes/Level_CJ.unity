@@ -820,6 +820,7 @@ MonoBehaviour:
   level2: {fileID: 8300000, guid: 9752ee2a41017814bbb211cee30999ae, type: 3}
   level3: {fileID: 8300000, guid: 92f247e4044c0f644abb5de25a6b83a1, type: 3}
   level4: {fileID: 8300000, guid: 41fa7b42c63c817448a4ca42c84b4ad4, type: 3}
+  level5: {fileID: 0}
 --- !u!82 &1207823578
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1345,7 +1346,7 @@ PrefabInstance:
       objectReference: {fileID: 108634848}
     - target: {fileID: 2036703086, guid: 15ccdefa6d31ee04190f5a6d416e5611, type: 3}
       propertyPath: thrust
-      value: 15
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 2036703086, guid: 15ccdefa6d31ee04190f5a6d416e5611, type: 3}
       propertyPath: rotationSpeed

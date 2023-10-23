@@ -224,6 +224,7 @@ MonoBehaviour:
   level2: {fileID: 8300000, guid: 9752ee2a41017814bbb211cee30999ae, type: 3}
   level3: {fileID: 8300000, guid: 92f247e4044c0f644abb5de25a6b83a1, type: 3}
   level4: {fileID: 8300000, guid: 41fa7b42c63c817448a4ca42c84b4ad4, type: 3}
+  level5: {fileID: 0}
 --- !u!1 &597937581
 GameObject:
   m_ObjectHideFlags: 0
@@ -371,7 +372,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 601e84dfe643e6c49bf2dd3e44c2f250, type: 2}
+  - {fileID: 2100000, guid: 232ade98d35f641428a3955b383556b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -695,7 +696,6 @@ MonoBehaviour:
   isQuit: 0
   isBack: 1
   isViewControls: 0
-  isResume: 0
 --- !u!102 &1546564066
 TextMesh:
   serializedVersion: 3
