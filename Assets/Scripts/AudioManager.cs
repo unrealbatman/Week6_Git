@@ -13,9 +13,10 @@ public class AudioManager : MonoBehaviour
     public AudioClip level2;
     public AudioClip level3;
     public AudioClip level4;
+    public AudioClip level5;
 
 
-     AudioSource audioSource;
+    AudioSource audioSource;
     // Start is called before the first frame update
     void Start()
     {
@@ -71,11 +72,21 @@ public class AudioManager : MonoBehaviour
 
                 break;
             case 6:
+                audioSource.clip = level4;
                 if (!audioSource.isPlaying)
                 {
                     audioSource.Play();
                 }
-                audioSource.clip = level4;
+                GameObject.FindGameObjectWithTag("Music")?.GetComponent<MenuMusic>().StopMusic();
+
+                break;
+
+            case 7:
+                if (!audioSource.isPlaying)
+                {
+                    audioSource.Play();
+                }
+                audioSource.clip = level5;
                 GameObject.FindGameObjectWithTag("Music")?.GetComponent<MenuMusic>().StopMusic();
 
                 break;
