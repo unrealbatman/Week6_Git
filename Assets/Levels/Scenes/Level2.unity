@@ -1610,7 +1610,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1719417280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2549,11 +2549,11 @@ PrefabInstance:
       objectReference: {fileID: 2118641324}
     - target: {fileID: 2036703086, guid: 15ccdefa6d31ee04190f5a6d416e5611, type: 3}
       propertyPath: thrust
-      value: 15
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 2036703086, guid: 15ccdefa6d31ee04190f5a6d416e5611, type: 3}
       propertyPath: rotationSpeed
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5351607921144695576, guid: 15ccdefa6d31ee04190f5a6d416e5611, type: 3}
       propertyPath: m_RootOrder

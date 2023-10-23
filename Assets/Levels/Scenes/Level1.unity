@@ -1623,8 +1623,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 742382682}
     - target: {fileID: 2036703086, guid: 15ccdefa6d31ee04190f5a6d416e5611, type: 3}
+      propertyPath: thrust
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2036703086, guid: 15ccdefa6d31ee04190f5a6d416e5611, type: 3}
       propertyPath: rotationSpeed
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5351607921144695576, guid: 15ccdefa6d31ee04190f5a6d416e5611, type: 3}
       propertyPath: m_RootOrder
@@ -1888,7 +1892,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8483004854090262125, guid: 3f56e2a6bae8dc140a5f5945b9fc31b7, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8483004854090262129, guid: 3f56e2a6bae8dc140a5f5945b9fc31b7, type: 3}
       propertyPath: m_Pivot.x

@@ -225,6 +225,7 @@ MonoBehaviour:
   level2: {fileID: 8300000, guid: 9752ee2a41017814bbb211cee30999ae, type: 3}
   level3: {fileID: 8300000, guid: 92f247e4044c0f644abb5de25a6b83a1, type: 3}
   level4: {fileID: 8300000, guid: 41fa7b42c63c817448a4ca42c84b4ad4, type: 3}
+  level5: {fileID: 0}
 --- !u!82 &60855149
 AudioSource:
   m_ObjectHideFlags: 0
@@ -539,7 +540,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 906840211}
   m_LocalRotation: {x: 0.9103581, y: 0.01367773, z: 0.02446146, w: 0.41287145}
-  m_LocalPosition: {x: 0.439, y: 0.18, z: 2.27}
+  m_LocalPosition: {x: 0.21, y: 0.2, z: 4.01}
   m_LocalScale: {x: 0.15029, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1352118999}
@@ -553,16 +554,18 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 906840211}
-  m_Text: "You are an astronaut stuck in a TIMELOOP on \nan esoteric part of the
-    galaxy. You have to make it \nto the end and Exit the Loop.\nBe prepared to face
-    the UNKWOWN!!"
-  m_OffsetZ: 0
-  m_CharacterSize: 0.42
-  m_LineSpacing: 1.25
+  m_Text: "In the uncharted depths of an esoteric galaxy, \nyou find yourself marooned
+    in an implacable timeloop. \nAs an intrepid astronaut, your mission is clear:
+    defy the \ncosmic enigma, navigate through time's intricate web, \nand seek the
+    key to exit this relentless loop. Your \njourney begins now.\"\nBe prepared to
+    face the UNKWOWN!!"
+  m_OffsetZ: 2.1
+  m_CharacterSize: 0.27
+  m_LineSpacing: 1.2
   m_Anchor: 0
   m_Alignment: 0
-  m_TabSize: 3.74
-  m_FontSize: 37
+  m_TabSize: 3.68
+  m_FontSize: 50
   m_FontStyle: 2
   m_RichText: 1
   m_Font: {fileID: 12800000, guid: 0881a6ac22c8ab74b841eb1936ec60b9, type: 3}
@@ -727,7 +730,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1352118998}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.3541322, y: 0, z: 0}
+  m_LocalPosition: {x: -3.36, y: 0.02, z: 0.42}
   m_LocalScale: {x: 1.156261, y: 1, z: 1}
   m_Children:
   - {fileID: 597937582}
@@ -764,7 +767,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1546564063}
   m_LocalRotation: {x: 0.62741846, y: -0.026329285, z: -0.030174091, w: 0.7776519}
-  m_LocalPosition: {x: 2.09, y: 0.29, z: -3.11}
+  m_LocalPosition: {x: 2.09, y: 0.26, z: -3.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1352118999}
